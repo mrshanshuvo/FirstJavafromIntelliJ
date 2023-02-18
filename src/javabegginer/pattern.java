@@ -10,7 +10,8 @@ public class pattern {
         num = input.nextInt();
         for (int row=num; row>=1; row--){
             for (int col=1; col<=row; col++){
-                System.out.print(" "+col);
+                String f1 = String.format("%c",64+col);
+                System.out.print(" "+f1);
             }
             System.out.println("\n");
         }
