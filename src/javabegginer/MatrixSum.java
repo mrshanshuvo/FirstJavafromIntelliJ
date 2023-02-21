@@ -136,7 +136,7 @@ public class MatrixSum {
 
         //multiplication of the matrices
         int [][] C = new int[4][4];
-        sum = 0;
+
         for (int row=1; row<4; row++){
             for (int col=1; col<4; col++){
                for (int k=1; k<4; k++){
