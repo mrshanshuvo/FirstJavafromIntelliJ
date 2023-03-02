@@ -1,4 +1,6 @@
-public class Main {
+package javabegginer.oopLab;
+
+public class TypeCasting {
     public static void main(String[] args) {
         int num1;
         double num2;
