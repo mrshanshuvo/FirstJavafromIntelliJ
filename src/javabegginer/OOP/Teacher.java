@@ -2,6 +2,7 @@ package javabegginer.OOP;
 public class Teacher {
     String name, gender;
     int age;
+    // method creation
     void setInput(String n,String m, int ag){
         name = n;
         gender = m;
